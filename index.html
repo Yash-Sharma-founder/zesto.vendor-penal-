@@ -169,8 +169,8 @@ function zConfirm(message){return zestoDialog('confirm',message)}
 function zPrompt(message,defaultValue=''){return zestoDialog('prompt',message,defaultValue)}
 
 /* Zesto Supabase compatibility layer — replaces Firebase Realtime Database API used by this app. */
-const SUPABASE_URL='https://dmaahcznhokgoyboisnu.supabase.co';
-const SUPABASE_PUBLISHABLE_KEY='sb_publishable_zO23yMSbwgnqU9hUleDrtA_M4LKnD8p';
+const SUPABASE_URL='https://bpmwqqdosygfogidszlp.supabase.co';
+const SUPABASE_PUBLISHABLE_KEY='sb_publishable_ui8qh1oA9Wn_WOHVF2FAdQ_1QetlJ09';
 const sb=window.supabase.createClient(SUPABASE_URL,SUPABASE_PUBLISHABLE_KEY,{auth:{persistSession:false}});
 class ZSnapshot{constructor(v){this._v=v} val(){return this._v}}
 const zClone=v=>v==null?v:JSON.parse(JSON.stringify(v));
